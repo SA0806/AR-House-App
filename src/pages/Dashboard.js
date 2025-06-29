@@ -46,7 +46,7 @@ const navigate = useNavigate();
 
   return (
     <div className="dashboard">
-      <Navbar/>
+      {/* <Navbar/> */}
       <h2 className="section-title">Select objects</h2>
       <Accordion
   selectedObjects={selectedObjects}
