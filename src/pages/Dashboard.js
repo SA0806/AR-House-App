@@ -47,7 +47,7 @@ const navigate = useNavigate();
   return (
     <div className="dashboard">
       {/* <Navbar/> */}
-      <h2 className="section-title">Select objects</h2>
+      <div className="section-title-wrapper"><h2 className="section-title">What Would You Like to see in AR ?</h2></div>
       <Accordion
   selectedObjects={selectedObjects}
   toggleObjectSelection={toggleObjectSelection}
