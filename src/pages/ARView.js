@@ -1,7 +1,7 @@
  // ARView.js
 
 import React, { useState } from 'react';
-import ModelViewerAR from '../components/ModelViewerAR';
+import ModelViewerAR from '../components/ModelViewerAr';
 import { useSelectedObjects } from '../Context/SelectedObjectsContext';
 import SelectedItemsBar from '../components/SelectedItemsBar';
 
