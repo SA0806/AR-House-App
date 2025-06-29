@@ -1,4 +1,4 @@
- // ARViewModelViewer.js
+ // ARView.js
 
 import React, { useState } from 'react';
 import ModelViewerAR from '../components/ModelViewerAR';

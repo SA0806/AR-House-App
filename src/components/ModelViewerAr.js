@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-// Load model-viewer from CDN once (no dev-mode warning)
+// Load model-viewer from CDN once (no dev-mode warning).
 export default function ModelViewerAR({
   src,
   alt = "3D model",
