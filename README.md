@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# AR House Designer — SD07
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An advanced web-based AR application that empowers users to **design and visualize interior spaces** using 3D furniture models — directly from their mobile browser. No app installation required. Seamlessly blending real and virtual, this tool offers both **non-immersive AR** (via `<model-viewer>`) and real-world **AR measurement** functionality.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
 
-### `npm start`
+## Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Try it here:** https://practice-iitisoc.vercel.app/
+> Works best on mobile devices with WebXR-supported browsers like Chrome or Edge.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+##  Team SD07
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Team Leader:** Sahiba Joshi  
+- **Team Members:** Devanshi Kawlani, Sohil Dangi, Disha Dange
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##  Project Overview
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> “Design your space — directly in your space.”
 
-### `npm run eject`
+This project offers users:
+- Markerless AR placement of 3D furniture
+- Gesture-based control (drag, rotate, scale)
+- Category-wise model browsing
+- AR measurement tool using real-world geometry
+- Lightweight and browser-accessible design
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Key Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+###  Markerless AR Visualization (Non-Immersive)
+- `<model-viewer>` integration for quick AR placement
+- Drag, rotate, and scale models with gestures
+- Screenshot and video capture support
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### AR Measurement Tool (Three.js + WebXR)
+- Tap to drop anchor points and measure distances
+- Dynamic 3D line drawing between points
+- Real-time label showing distance in meters/cm
+- Reset and start new measurements anytime
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### UI Highlights
+- Smooth scroll animations with AOS
+- Responsive layout with React + Bootstrap
+- Integrated dashboards for browsing furniture
+- Blender & Sketchfab models preview and switching
 
-## Learn More
+---
+## Tech Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Area              | Tools / Libraries                       |
+|-------------------|------------------------------------------|
+| Core Framework | React.js                                 |
+| Styling        | CSS, Bootstrap, AOS                      |
+|  Build Tool     | Create React App                         |
+|  AR Engine      | `<model-viewer>`, Three.js, WebXR        |
+|  3D Assets       | Sketchfab, Blender                       |
+|  Routing        | React Router                             |
+|  Deployment     | Vercel     
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
