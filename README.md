@@ -63,8 +63,8 @@ This project offers users:
 |  Deployment     | Vercel     
 
 ## How to run the project?
--Clone the github repo.
--Open it in any code editor, say VS Code.
--In terminal run the command npm install to install necessary packages.
--Once installation is completed, run the project by npm start command.
+- Clone the github repo
+- Open it in any code editor, say VS Code
+- In terminal run the command npm install to install necessary packages
+- Once installation is completed, run the project by npm start command
 
