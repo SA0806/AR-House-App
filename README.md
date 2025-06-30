@@ -7,7 +7,7 @@ An advanced web-based AR application that empowers users to **design and visuali
 
 ## Demo
 
-**Try it here:** https://practice-iitisoc.vercel.app/
+**Try it here:** https://ar-house-app.vercel.app/
 > Works best on mobile devices with WebXR-supported browsers like Chrome or Edge.
 
 
